@@ -1,4 +1,4 @@
-# Click Count em Python 🚀
+# Clicador em Python 🚀
 
 Site simples desenvolvido com servidor HTTP nativo em Python e persistência de dados.
 
@@ -8,6 +8,22 @@ Site simples desenvolvido com servidor HTTP nativo em Python e persistência de 
 - Interface moderna, responsiva e com efeito de vidro (glassmorphism).
 
 ## Como Executar Localmente
+
+1. Crie e ative o ambiente virtual (`venv`):
+```bash
+python -m venv venv
+# No Windows (PowerShell):
+.\venv\Scripts\Activate.ps1
+# Ou no CMD:
+.\venv\Scripts\activate.bat
+```
+
+2. Instale as dependências (se houver):
+```bash
+pip install -r requirements.txt
+```
+
+3. Inicie o servidor:
 ```bash
 python server.py
 ```

@@ -1,5 +1,13 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# Configurações locais
 .env
